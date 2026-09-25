@@ -32,12 +32,14 @@ export const SEO_TWITTER_CARD = 'summary_large_image';
 
 export const SEO_TWITTER_ACCOUNT_URL = 'https://twitter.com/qtruffy';
 export const SEO_GITHUB_ACCOUNT_URL = 'https://github.com/qtruffy';
+export const SEO_INSTAGRAM_ACCOUNT_URL = 'https://www.instagram.com/qtruffy/';
 export const SEO_LINKEDIN_ACCOUNT_URL = 'https://www.linkedin.com/in/qtruffy/';
 
 export const SEO_SAME_AS = [
   SEO_TWITTER_ACCOUNT_URL,
   SEO_GITHUB_ACCOUNT_URL,
   SEO_LINKEDIN_ACCOUNT_URL,
+  SEO_INSTAGRAM_ACCOUNT_URL,
 ].filter(Boolean);
 
 export const SEO_SKILLS = [

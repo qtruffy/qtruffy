@@ -1,5 +1,6 @@
 import { Experiences } from '@/components/experiences/experiences';
 import { JsonLd } from '@/components/json-ld';
+import { Stacks } from '@/components/stacks/stacks';
 import { SEO_SOCIALS } from '@/utils/socials';
 import { profilePageJsonLd } from '@/utils/structured-data';
 import { HugeiconsIcon } from '@hugeicons/react';
@@ -50,6 +51,7 @@ export default function Home() {
         </a>
       </header>
       <Experiences />
+      <Stacks />
     </div>
   );
 }

@@ -26,4 +26,13 @@ export const EXPERIENCES: ExperienceType[] = [
     company: '7Opteam (acquired by Nomadia)',
     companyUrl: 'https://www.linkedin.com/company/7opteam/',
   },
+  {
+    startDate: '2020',
+    endDate: '2024',
+    title: 'Software Engineer & Trainer',
+    description:
+      'Developed and delivered training programs for software engineers, ensuring they have the skills and knowledge to build and maintain software solutions.',
+    company: 'Logicmax (acquired by Sofia)',
+    companyUrl: 'https://www.linkedin.com/company/logicmax-technologie/',
+  },
 ];

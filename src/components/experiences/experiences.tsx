@@ -17,18 +17,18 @@ export const Experiences = () => {
               {experience.startDate} - {experience.endDate ?? 'Now'}
             </time>
             <div className="flex flex-col gap-1">
-              <h3 className="flex flex-row items-center gap-1 text-sm font-medium text-neutral-100">
+              <h3 className="text-sm font-medium text-balance text-neutral-100">
                 {experience.title} at{' '}
                 <Link
                   href={experience.companyUrl}
                   target="_blank"
-                  className="group/brandName flex cursor-pointer flex-row items-center gap-0.5 underline transition-colors duration-300 hover:text-white"
+                  className="group/brandName cursor-pointer underline underline-offset-2 transition-colors duration-300 hover:text-white"
                 >
-                  {experience.company}{' '}
+                  {experience.company}
                   <HugeiconsIcon
                     icon={ArrowUpRight01Icon}
                     size={16}
-                    className="text-neutral-400 transition-all duration-300 group-hover/brandName:scale-105 group-hover/brandName:text-white"
+                    className="ml-0.5 inline-block shrink-0 align-[-0.2em] text-neutral-400 transition-all duration-300 group-hover/brandName:scale-105 group-hover/brandName:text-white"
                   />
                 </Link>
               </h3>

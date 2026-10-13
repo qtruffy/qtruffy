@@ -1,5 +1,6 @@
 import { Experiences } from '@/components/experiences/experiences';
 import { JsonLd } from '@/components/json-ld';
+import { Projets } from '@/components/projets/projets';
 import { Stacks } from '@/components/stacks/stacks';
 import { SEO_SOCIALS } from '@/utils/socials';
 import { profilePageJsonLd } from '@/utils/structured-data';
@@ -52,6 +53,7 @@ export default function Home() {
       </header>
       <Experiences />
       <Stacks />
+      <Projets />
     </div>
   );
 }
